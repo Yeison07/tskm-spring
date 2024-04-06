@@ -1,0 +1,31 @@
+.card_task {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  box-shadow: 2px 2px 5px #00000030;
+  background-color: var(--bg-300);
+  width: 100%;
+  min-height: 70px;
+  font-size: 16px;
+  cursor: pointer !important;
+  touch-action: none;
+  user-select: none;
+  font-size: 15px;
+}
+
+.card_task:hover {
+  background-color: var(--bg-100);
+}
+
+.card_task > div {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+@keyframes appear {
+  from {
+    transform: translate(-1em, -1em);
+  }
+}

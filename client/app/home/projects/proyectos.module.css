@@ -1,0 +1,35 @@
+.projects_container {
+  min-height: 100vh;
+  background-color: var(--bg-400);
+}
+
+.projects_content {
+  display: flex;
+  justify-content: center;
+}
+
+.projects_content input {
+  border: solid 1px var(--gray-200);
+  border-radius: 1em;
+  min-height: 50px;
+  width: 60%;
+  margin-bottom: 4em;
+  font-size: 18px;
+  transition: outline 50ms ease-in-out;
+}
+
+.projects_content input::placeholder {
+  padding-left: 1em;
+  font-size: 14px;
+}
+
+.projects_content input:focus {
+  outline: solid 2px var(--primary-200);
+  color: var(--primary-200);
+}
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1fr);
+  gap: 2em;
+}

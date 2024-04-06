@@ -1,0 +1,25 @@
+.card {
+  display: grid;
+  padding: 0 1em;
+  background-color: var(--bg-300);
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 1fr;
+  min-width: 300px;
+  min-height: 250px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 5px;
+  transition: transform 200ms ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-1em);
+}
+
+.card h3 {
+}
+
+.card_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: self-start;
+}

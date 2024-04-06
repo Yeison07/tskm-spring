@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:dev}
+  application:
+    name: eureka-service
+  cloud:
+    config:
+      enabled: true
+      uri: https://config-server-production-5948.up.railway.app

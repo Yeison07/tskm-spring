@@ -1,0 +1,26 @@
+:root {
+  --primary-100: #0070c0;
+  --primary-200: #004e86;
+  --primary-300: #6ec3ff;
+  --accent-100: #ffc000;
+  --accent-200: #b38600;
+  --text-100: #1c1c1c;
+  --text-200: #737373;
+  --bg-100: #f5f6f7;
+  --bg-200: #f5f5f5;
+  --bg-300: #ffffff;
+  --bg-400: #f7f8f9;
+  --gray-100: #f3f3f3;
+  --gray-200: #e9e9e9;
+  --shadow-100: #00000010;
+  --primary-10: #004e8660;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-100);
+}
+
+a {
+  text-decoration: none;
+}

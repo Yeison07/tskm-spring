@@ -1,0 +1,39 @@
+.board_container {
+  display: flex;
+  justify-content: center;
+  background-color: var(--bg-300);
+}
+.board_navbar {
+  display: flex;
+  column-gap: 1em;
+  margin-bottom: 3em;
+}
+
+.board_navbar button {
+  border: none;
+  border-radius: 5px;
+  background-color: var(--bg-300);
+  cursor: pointer;
+  padding: 0 0.5em;
+}
+
+.board_navbar button:hover {
+  background-color: var(--bg-200);
+}
+.board {
+  width: 95%;
+}
+
+.board_inputSearch {
+  height: 30px;
+  outline: none;
+  border: solid 1px var(--gray-200);
+  border-radius: 3px;
+  background-color: var(--bg-200);
+}
+
+.board_tasks {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1em;
+}
